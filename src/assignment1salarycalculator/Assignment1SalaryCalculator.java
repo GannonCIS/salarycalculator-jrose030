@@ -18,7 +18,8 @@ public class Assignment1SalaryCalculator {
         salaryCalculator sally = new salaryCalculator();
         sally.calcHourly(80000);
         sally.calcSalary(7.25);
-        sally.takeHomePerMonth(80000, .6);
+        sally.takeHomePerMonth(80000, .26);
+        sally.calcTaxes(80000, .26);
         
         
         
