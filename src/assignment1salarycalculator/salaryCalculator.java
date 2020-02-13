@@ -12,7 +12,8 @@ package assignment1salarycalculator;
 public class salaryCalculator {
     
     public double calcSalary(double hourlyRate){
-        return 0; //dont't forget to change later!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        double salary = (hourlyRate * 40) * 52;
+        return salary; 
     }
     
     public double calcHourly(double salary){
