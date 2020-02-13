@@ -17,7 +17,8 @@ public class salaryCalculator {
     }
     
     public double calcHourly(double salary){
-        return 0; //dont't forget to change later!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        double hourly = (salary/52)/40;
+        return hourly; 
     }
     
     public double takeHomePerMonth(double salary, double taxRate){
